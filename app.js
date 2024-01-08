@@ -5,7 +5,7 @@ Promise.all([
   faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
   faceapi.nets.faceRecognitionNet.loadFromUri("/models"),
   faceapi.nets.faceExpressionNet.loadFromUri("/models"),
-]).then(startCamera());
+]).then(startCamera);
 
 function startCamera() {
   
